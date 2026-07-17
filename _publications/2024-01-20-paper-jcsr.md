@@ -3,7 +3,7 @@ title: "Axial compression behavior of steel reinforced concrete columns after ch
 collection: publications
 category: manuscripts
 permalink: /publication/2024-01-20-paper-jcsr
-excerpt: 'SCI-JCR Q1, 氯盐腐蚀后型钢混凝土柱轴压性能研究'
+excerpt: '<span style='color:#235796;'>SCI-JCR Q1</span>, 氯盐腐蚀后型钢混凝土柱轴压性能研究'
 date: 2024-01-20
 venue: 'Journal of Constructional Steel Research'
 paperurl: 'https://doi.org/10.1016/j.jcsr.2023.108265'
