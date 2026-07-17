@@ -1,56 +1,51 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "黎学桐 Xuetong Li - PhD Candidate"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## About Me
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+**黎学桐 Xuetong Li**，博士候选人（PhD Candidate），隶属于同济大学上海自主智能无人系统科学中心，专业为智能科学与技术。
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+### 中文简介
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+黎学桐，2025 年 9 月至今于同济大学上海自主智能无人系统科学中心攻读智能科学与技术博士学位，主攻基础设施领域大语言模型、多模态大模型（MLLM）、检索增强生成（RAG）、图神经网络（GNN）与多智能体系统。以第一作者在工程信息领域顶刊 *Advanced Engineering Informatics* 发表论文，提出人在回路桥梁运维知识图谱自动化 LLM-GNN 框架；硕士阶段就读福州大学结构工程专业，获硕士国家奖学金，博士阶段获评 2025–2026 学年同济大学博士国家奖学金。
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+硕士期间聚焦海洋氯盐环境钢-混组合结构耐久性能，以第一作者在 *Thin-Walled Structures*、*Journal of Constructional Steel Research*、*Engineering Failure Analysis* 发表多篇 SCI 一区期刊论文，累计授权 21 项专利。当前致力于融合基础设施工程专业知识与生成式大模型，搭建面向桥梁全生命周期运维的行业专用智能系统。
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### English Profile
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Xuetong Li, PhD Candidate majoring in Intelligent Science and Technology at Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University (Sep. 2025 – Present). His research focuses on LLM, MLLM, RAG, GNN and multi-agent systems for civil infrastructure intelligence. He has published a first-author paper in *Advanced Engineering Informatics*, proposing a human-in-the-loop LLM-GNN automatic framework for bridge maintenance knowledge graphs.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+He completed his master's degree in Structural Engineering at Fuzhou University (2022.09–2025.03). He was awarded the National Postgraduate Scholarship during master study, and the Tongji University National Doctoral Scholarship for the 2025–2026 academic year.
 
-**Markdown generator**
+In master's research, he investigated durability of steel-concrete composite structures under marine chloride corrosion, published multiple first-author SCI Q1 journal papers, and obtained 21 authorized patents. His ongoing work integrates civil engineering domain expertise with generative large models to build domain-specific intelligent systems for full-lifecycle bridge maintenance.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+---
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Research Interests
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+### PhD Research (AI Cross-disciplinary)
+- Multi-modal Large Language Models (MLLM) for bridge infrastructure
+- Engineering Retrieval-Augmented Generation (RAG), industry vector knowledge base construction
+- GNN + bridge maintenance knowledge graph automated construction
+- Human-in-the-loop intelligent framework, multi-agent collaborative decision systems
+- Engineering unstructured text extraction, structural disease intelligent diagnosis
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### Master Research (Steel-Concrete Durability)
+- Axial compression deterioration of SRC columns under coastal chloride corrosion
+- Interface bond-slip behavior of weathering steel-seawater sea-sand concrete
+- Electrochemical accelerated corrosion test, push-out/axial compression loading test
+- ABAQUS refined CDP finite element numerical simulation
+
+---
+
+## Contact
+
+- **Email**: xuetong.li@tongji.edu.cn
+- **Affiliation**: Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University
+- **Location**: Shanghai, China
