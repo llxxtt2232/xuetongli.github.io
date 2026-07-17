@@ -23,14 +23,14 @@ repository               : "llxxtt2232/xuetongli.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/wiki/lxt-photo.png"
+  avatar           : "/images/wiki/lxt-photo.jpg"
   name             : "黎学桐 Xuetong Li"
   pronouns         : "星汉可乘槎而上"  
   bio              : "PhD Candidate in Intelligent Science and Technology at Tongji University. Research interests: LLM, MLLM, RAG, GNN, Knowledge Graph, Agent."
   location         : "Shanghai, China"
   employer         : "Tongji University"
-  uri              : https://xuetongli.github.io
-  email            : "xuetong.li@tongji.edu.cn" 
+  uri              : "https://llxxtt2232.github.io"
+  email            : "2512026@tongji.edu.cn" 
 
   # Academic websites
   academia         : # URL
