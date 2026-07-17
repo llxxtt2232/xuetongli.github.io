@@ -1,0 +1,58 @@
+---
+layout: archive
+title: "Home"
+author_profile: true
+---
+
+{% include base_path %}
+
+<!-- Welcome Section -->
+<div class="page__hero--overlay" style="background-color: #1a1a2e;">
+  <div class="wrapper">
+    <h1 class="page__title" style="color: white; margin-bottom: 10px;">{{ site.title }}</h1>
+    <p class="page__lead" style="color: #e0e0e0; font-size: 1.2em;">{{ site.description }}</p>
+    {% if site.author.bio %}
+    <p style="color: #b0b0b0;">{{ site.author.bio }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<!-- Research Interests -->
+<div class="archive__item" style="margin-top: 2em;">
+  <h2>Research Interests</h2>
+  <hr />
+  <ul style="list-style-type: disc; margin-left: 2em;">
+    <li>Multi-modal Large Language Models (MLLM) for bridge infrastructure</li>
+    <li>Engineering Retrieval-Augmented Generation (RAG), industry vector knowledge base construction</li>
+    <li>GNN + bridge maintenance knowledge graph automated construction</li>
+    <li>Human-in-the-loop intelligent framework, multi-agent collaborative decision systems</li>
+    <li>Engineering unstructured text extraction, structural disease intelligent diagnosis</li>
+  </ul>
+</div>
+
+<!-- Publications Section -->
+<div class="archive__item" style="margin-top: 2em;">
+  <h2>Publications</h2>
+  <hr />
+
+  {% if site.publication_category %}
+    {% for category in site.publication_category %}
+      {% assign title_shown = false %}
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] %}
+          {% continue %}
+        {% endif %}
+        {% unless title_shown %}
+          <h3 style="margin-top: 1.5em; color: #1a1a2e;">{{ category[1].title }}</h3>
+          <hr style="margin-top: 0.5em; margin-bottom: 1em;" />
+          {% assign title_shown = true %}
+        {% endunless %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endfor %}
+  {% else %}
+    {% for post in site.publications reversed %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endif %}
+</div>
