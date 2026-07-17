@@ -11,16 +11,20 @@ redirect_from:
 
 Education
 ======
-* **Ph.D Candidate in Intelligent Science and Technology**, Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University, Sep. 2025 – Present
+
+* **Ph.D Candidate in Intelligent Science and Technology**<br>
+  <img src="{{ site.baseurl }}/images/wiki/tongji.png" alt="Tongji University" style="height: 20px; vertical-align: middle; margin-right: 8px;"> Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University, Sep. 2025 – Present
   * Research: LLM, MLLM, RAG, GNN, Knowledge Graph for civil infrastructure
   * Scholarship: Tongji University National Doctoral Scholarship (2025-2026)
 
-* **M.S. in Structural Engineering**, Fuzhou University, Sep. 2022 – Mar. 2025
+* **M.S. in Structural Engineering**<br>
+  <img src="{{ site.baseurl }}/images/wiki/fzu.png" alt="Fuzhou University" style="height: 20px; vertical-align: middle; margin-right: 8px;"> Fuzhou University, Sep. 2022 – Mar. 2025
   * GPA: 3.62/4.0 (Top 5%)
   * Research: Durability of steel-concrete composite structures under marine chloride corrosion
   * Scholarship: National Postgraduate Scholarship
 
-* **B.S. in Civil Engineering (Excellence Program)**, Nanchang University, Sep. 2018 – Jul. 2022
+* **B.S. in Civil Engineering (Excellence Program)**<br>
+  <img src="{{ site.baseurl }}/images/wiki/ncu.png" alt="Nanchang University" style="height: 20px; vertical-align: middle; margin-right: 8px;"> Nanchang University, Sep. 2018 – Jul. 2022
   * GPA: 3.51/4.0
   * Core Courses: Structural Mechanics, Material Mechanics, Bridge Engineering (all above 90)
 
@@ -59,18 +63,6 @@ Skills
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
