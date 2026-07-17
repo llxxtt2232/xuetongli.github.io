@@ -6,33 +6,52 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- Welcome Section -->
-<div class="page__hero--overlay" style="background-color: #1a1a2e;">
+<!-- Welcome Section with Avatar 浅蓝渐变横幅 -->
+<div class="page__hero--overlay" style="background: linear-gradient(135deg, #e6f2ff 0%, #d0e4f7 100%); padding: 3em 0;">
   <div class="wrapper">
-    <h1 class="page__title" style="color: white; margin-bottom: 10px;">{{ site.title }}</h1>
-    <p class="page__lead" style="color: #e0e0e0; font-size: 1.2em;">{{ site.description }}</p>
-    {% if site.author.bio %}
-    <p style="color: #b0b0b0;">{{ site.author.bio }}</p>
-    {% endif %}
+    <div style="display: flex; align-items: center; gap: 2em;">
+      <img src="{{ site.baseurl }}/images/bio-photo.jpg" alt="Xuetong Li" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #fff;">
+      <div>
+        <h1 class="page__title" style="color: #1a1a2e; margin-bottom: 10px;">{{ site.title }}</h1>
+        <p class="page__lead" style="color: #2c3e50; font-size: 1.2em;">{{ site.description }}</p>
+        {% if site.author.bio %}
+        <p style="color: #34495e;">{{ site.author.bio }}</p>
+        {% endif %}
+      </div>
+    </div>
   </div>
 </div>
 
 <!-- Research Interests -->
 <div class="archive__item" style="margin-top: 2em;">
-  <h2>Research Interests</h2>
+  <h2>Research Interests 研究方向</h2>
   <hr />
   <ul style="list-style-type: disc; margin-left: 2em;">
-    <li>Multi-modal Large Language Models (MLLM) for bridge infrastructure</li>
-    <li>Engineering Retrieval-Augmented Generation (RAG), industry vector knowledge base construction</li>
-    <li>GNN + bridge maintenance knowledge graph automated construction</li>
-    <li>Human-in-the-loop intelligent framework, multi-agent collaborative decision systems</li>
-    <li>Engineering unstructured text extraction, structural disease intelligent diagnosis</li>
+    <li>Multi-modal Large Language Models (MLLM) for bridge infrastructure（面向桥梁基础设施多模态大语言模型）</li>
+    <li>Engineering Retrieval-Augmented Generation (RAG) & industry vector knowledge base construction（工程检索增强生成RAG、行业向量知识库构建）</li>
+    <li>GNN automated construction for bridge maintenance knowledge graphs（GNN图神经网络+桥梁运维知识图谱自动化构建）</li>
+    <li>Human-in-the-loop framework & multi-agent collaborative decision systems（人在回路智能框架、多智能体协同决策系统）</li>
+    <li>Unstructured engineering text extraction & structural defect intelligent diagnosis（工程非结构化文本抽取、结构病害智能研判）</li>
+  </ul>
+</div>
+
+<!-- Awards & Honors 双语奖项 -->
+<div class="archive__item" style="margin-top: 2em;">
+  <h2>Awards & Honors 荣誉奖项</h2>
+  <hr />
+  <ul style="list-style-type: none; margin-left: 1em;">
+    <li style="padding: 0.5em 0; border-bottom: 1px solid #eee;">
+      <strong style="color: #235796;">National Scholarship for Doctoral Students</strong>（博士国家奖学金）, Tongji University, 2025–2026
+    </li>
+    <li style="padding: 0.5em 0;">
+      <strong style="color: #235796;">National Scholarship for Master Students</strong>（硕士国家奖学金）, Fuzhou University, 2024
+    </li>
   </ul>
 </div>
 
 <!-- Publications Section -->
 <div class="archive__item" style="margin-top: 2em;">
-  <h2>Publications</h2>
+  <h2>Publications 发表论文</h2>
   <hr />
 
   {% if site.publication_category %}
