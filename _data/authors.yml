@@ -1,18 +1,8 @@
-# Authors
-
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Xuetong Li:
+  name        : "Xuetong Li"
+  uri         : "https://llxxtt2232.github.io/xuetongli.github.io"
+  email       : "2512026@tongji.edu.cn"
+  bio         : "Ph.D Candidate in Intelligent Science and Technology, Tongji University"
+  avatar      : "lxt-photo.jpg"
+  twitter     : ""
+  google_plus : ""
