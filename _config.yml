@@ -13,7 +13,7 @@ title                    : "黎学桐 Xuetong Li"
 title_separator          : "-"
 name                     : &name "黎学桐 Xuetong Li"
 description              : &description "黎学桐的个人学术主页 - PhD Candidate at Tongji University"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://llxxtt2232.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://llxxtt2232.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/xuetongli.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "llxxtt2232/xuetongli.github.io"
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username
   codepen          : # Username
   dribbble         : # Username
-  github           : "xuetongli" # Update with your GitHub username
+  github           : "llxxtt2232" # Update with your GitHub username
   kaggle           : # Username  
   stackoverflow    : # User number
 
